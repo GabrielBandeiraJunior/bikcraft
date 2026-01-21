@@ -32,6 +32,7 @@ body{
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+  position: relative;
 }
 
 ul{
@@ -45,7 +46,8 @@ ul{
   width: 0px; 
   background: white;
   margin-top: 4px;
-  transition: 0.3s;
+  transition: 0.2s;
+  position: absolute;
 }
 
 .header-menu a:hover:after {
@@ -62,6 +64,9 @@ ul{
   }
   .header-menu a:hover {
     background-color:rgb(44, 44, 44);
+  }
+  .header a:after{
+    display:none;
   }
 }
 
