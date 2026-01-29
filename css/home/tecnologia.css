@@ -31,7 +31,7 @@
 }
 
 .tecnologia-conteudo > p {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .tecnologia a {
@@ -53,7 +53,7 @@
   margin-bottom: 8px;
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .tecnologia-bg {
     box-shadow: initial;
   }
@@ -72,7 +72,7 @@
   }
 }
 
-@media (width <= 600px) {
+@media (max-width: 600px) {
   .tecnologia-vantagens {
     flex-direction: column;
   }
